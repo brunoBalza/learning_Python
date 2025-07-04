@@ -14,7 +14,18 @@ matriz = [
     [7, 8, 9]
 ]
 
+
 transposed = [[row [i] for row in matriz] for i in range(len(matriz[0]))]
 
 print(matriz)
-print(transposed)
+# print(transposed)
+
+transposed_1 = []
+for i in range(len(matriz[0])):
+    transposed_row = []
+    for row in matriz:
+        transposed_row.append(row[i])
+    transposed_1.append(transposed_row)
+
+print(transposed_1)
+
