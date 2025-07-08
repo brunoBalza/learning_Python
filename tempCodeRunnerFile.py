@@ -1,18 +1,8 @@
-matriz = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
+def sumatoria(n):
+    if n == 0:
+        return 0
 
+    else:
+        return n + sumatoria(n-1)
 
-transposed = [[row [i] for row in matriz] for i in range(len(matriz[0]))]
-
-print(matriz)
-# print(transposed)
-
-transposed_1 = []
-for i in range(3):
-    transposed_row = []
-    for row in matriz:
-        transposed_row.append(row[i])
-    transposed_1.append(transposed_row)
+print(sumatoria(10))
