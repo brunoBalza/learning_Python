@@ -10,3 +10,5 @@ elif (jugador_1 == "Piedra" and jugador_2 == "Tijera") or \
     print("Jugador 1 gana")
 else:
     print("Jugador 2 gana") 
+
+    
