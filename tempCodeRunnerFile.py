@@ -1,1 +1,0 @@
-return f'El motor de {self.brand} está apagado'
