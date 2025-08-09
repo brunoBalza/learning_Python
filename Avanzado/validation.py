@@ -27,7 +27,7 @@ except ValueError as e:
     print(f'Error: {e}')   
 
 try:
-    res = divide(10,2)
+    res = divide(10,0)
     print(res)
 except (TypeError, ValueError) as e:
     print(f'Error: {e}')  
